@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background-color: lightblue;
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 30px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.sciencealert.com/images/articles/processed/21984799847-platypusveno_1024.jpg">
+    <h1>Platypus web.</h1>
+    <ul>
+      <li><a href="#">¿Qué es un ornitorrinco?</a></li>
+      <li><a href="#">¿Son venenosos los ornitorrincos?</a></li>
+      <li><a href="#">Electrolocalización en ornitorrincos.</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>¿Qué es un ornitorrinco?</h2>
+    <p>El ornitorrinco (Ornithorhynchus anatinus) es una especie de mamífero semiacuático endémico del este de Australia y de la isla de Tasmania. Es una de las cinco especies —junto con las cuatro de equidna— que perviven en la actualidad del orden de los monotremas, grupo que reúne a los únicos mamíferos actuales que ponen huevos en lugar de dar a luz crías vivas. Es el único representante vivo de la familia Ornithorhynchidae y del género Ornithorhynchus.</p>
+    <button onclick="alerta()">Interesante</button>
+  </article>
+  <article>
+    <h2>¿Son venenosos los ornitorrincos?</h2>
+    <p>Aunque tanto los machos como las hembras nacen con espolones en el tobillo, solo los del macho liberan veneno, compuesto principalmente por proteínas similares a defensinas (DLP), tres de las cuales son únicas en el ornitorrinco. Las defensinas son producidas por su sistema inmunitario. A pesar de que el veneno es lo suficientemente potente como para matar animales pequeños, o incluso perros, no es letal para los humanos, aunque tras una picadura pronto aparece un edema alrededor de la herida que se extiende gradualmente por el miembro afectado y causa un dolor tan intenso que ni siquiera puede ser calmado con morfina. La información obtenida de los estudios de caso y pruebas anecdóticas indica que el dolor se transforma en una hiperalgesia de larga duración que persiste durante días o incluso meses. El veneno se produce en las glándulas crurales del macho, unas glándulas alveolares en forma de riñón conectadas al espolón calcáneo de ambas patas posteriores a través de un conducto con paredes delgadas. Las hembras, al igual que en los equidnas, nacen con púas rudimentarias que no se desarrollan y caen antes de que lleguen a alcanzar un año de edad y carecen de glándulas crurales funcionales.
+
+El veneno parece tener una función diferente a la del producido por especies no mamíferas; sus efectos no suelen ser letales, pero son lo bastante potentes como para debilitar seriamente a la víctima. Puesto que solo los machos producen veneno y la producción aumenta durante la época de apareamiento, se teoriza que es utilizado como arma ofensiva para hacer valer su dominio durante este período</p>
+    <button onclick="alerta()">Interesante</button>
+  </article>
+  <article>
+    <h2>Electrolocalización en ornitorrincos.</h2>
+    <p>Los monotremas son los únicos mamíferos de los que se sabe que tienen un sentido de electrorrecepción; localizan sus presas, en parte, mediante la detección de campos eléctricos generados por las contracciones musculares de estas. La electrorrecepción del ornitorrinco es la más sensible de todos los monotremas. Los electrorreceptores están situados en hileras rostrocaudales en la piel del hocico, mientras que los mecanorreceptores (que detectan el tacto) están distribuidos uniformemente por el hocico. La zona electrosensible de la corteza cerebral se encuentra en el área somatosensorial táctil, y algunas células corticales reciben estímulos tanto de los electrorreceptores como de los mecanorreceptores, lo que sugiere una asociación estrecha entre los sentidos de electrorrecepción y del tacto. Tanto los electrorreceptores como los mecanorreceptores del hocico dominan el mapa somatotópico de su cerebro, del mismo modo que las manos humanas dominan el mapa del homúnculo cortical de Penfield.
+
+Puede determinar la dirección de una fuente eléctrica, posiblemente comparando diferencias en la intensidad de la señal a lo largo de la capa de electrorreceptores. Esto explicaría el movimiento característico de la cabeza del animal de un lado a otro cuando sale a cazar. La convergencia cortical de los estímulos electrosensoriales y táctiles sugieren la existencia de un mecanismo para determinar la distancia de las presas que, cuando se mueven, emiten tanto señales eléctricas como pulsos de presión mecánicos, lo que también permitiría calcular la distancia a partir de la diferencia en el tiempo de llegada de las dos señales.
+
+El ornitorrinco no busca alimento mediante la vista o el olfato, cierra sus ojos, oídos y nariz cuando se zambulle, y excava con el hocico en el fondo de riachuelos. Los electrorreceptores de su hocico detectan los pequeños movimientos de sus presas al distinguir los objetos animados de los inanimados en esta situación en que los mecanorreceptores están constantemente estimulados. Las presas generarían minúsculas corrientes eléctricas con sus contracciones musculares que podrían ser detectados por sus sensibles electrorreceptores. Se ha demostrado experimentalmente que el ornitorrinco reacciona ante un «camarón» artificial si se hace pasar una corriente eléctrica débil a través de él. </p>
+    <button onclick="alerta()">Interesante</button>
+  </article>
+<script>
+function alerta() {
+  alert("a mi tambien me interesa");
+}
+</script>
+</body>
